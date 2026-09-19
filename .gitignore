@@ -1,6 +1,8 @@
 __pycache__/
 .ipynb_checkpoints/
 .env
+data/feasibility/*.jpg
+data/cache
 data/raw/
 data/stimuli/
 .venv
