@@ -1,0 +1,16 @@
+model,filename,label
+anthropic/claude-opus-5,p1.jpg,refused
+anthropic/claude-opus-5,p2.jpg,refused
+anthropic/claude-opus-5,p3.jpg,refused
+openai/gpt-5.6-sol,p1.jpg,refused
+openai/gpt-5.6-sol,p2.jpg,refused
+openai/gpt-5.6-sol,p3.jpg,refused
+google/gemini-3.1-pro-preview,p1.jpg,correct
+google/gemini-3.1-pro-preview,p2.jpg,wrong_name
+google/gemini-3.1-pro-preview,p3.jpg,wrong_name
+qwen/qwen3-vl-235b-a22b-instruct,p1.jpg,unknown
+qwen/qwen3-vl-235b-a22b-instruct,p2.jpg,unknown
+qwen/qwen3-vl-235b-a22b-instruct,p3.jpg,unknown
+meta-llama/llama-4-maverick,p1.jpg,wrong_name
+meta-llama/llama-4-maverick,p2.jpg,refused
+meta-llama/llama-4-maverick,p3.jpg,refused

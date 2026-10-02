@@ -6,3 +6,6 @@ data/cache
 data/raw/
 data/stimuli/
 .venv
+data/check/stimuli/
+data/check/crops/
+data/check/*.jpg
