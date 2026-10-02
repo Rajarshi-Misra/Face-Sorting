@@ -7,9 +7,9 @@ In 2011, Jenkins, White, Van Montfort and Burton gave people 40 photos of two Du
 This project runs the same task on five AI vision models. It asks whether they behave like strangers, splitting one person into many, or like people who know the faces.
 
 > **Status (2 Oct 2026): feasibility checks done, main study not yet run.**
-> The pre-registration draft is complete except for the predictions ([PREREGISTRATION.md](PREREGISTRATION.md)). No model has seen the final stimuli, which are still to be picked under its rules.
+> The design, prompt, scoring rules and predictions will be pre-registered with a public registry before the main run, and the registered version will be added here. No model has seen the final stimuli.
 
-## Study design (draft, see the pre-registration)
+## Study design (draft; the registered version is final)
 
 - **Subjects:** two women politicians with freely licensed photos on Wikimedia Commons: Annie Lööf (Sweden) and Maria Ohisalo (Finland).
 - **Stimuli:** 40 photos, 20 per person, taken at different times and places by different photographers.
