@@ -46,6 +46,7 @@ Gemini 3.1 Pro is a preview model and may change or be retired. The open-weight 
 |---|---|---|
 | [00_feasibility](notebooks/00_feasibility.ipynb) | Do the models name the person in a single photo? (3 photos × 5 models) | Mostly refusals. Gemini named Lööf (party logo in frame) and gave confident wrong names for the other two. Llama gave one wrong name. |
 | [01_grouping_check](notebooks/01_grouping_check.ipynb) | Will the models do the grouping task at all, with 40 images in one call? (one call per model and condition) | All 5 do it. Full photos: 3 sorted perfectly into 2 groups, and 2 misplaced one photo each. Head crops: 4 perfect; GPT-5.6 Sol made 4 groups, splitting each woman in two. |
+| [02_naming_check](notebooks/02_naming_check.ipynb) | Do the models name the person in each of the 40 check photos, as published and as a head crop? (400 calls) | Not run yet. |
 
 **These checks are not findings.** Each is one call per model with one shuffle, and the photo picks have known biases:
 - Lööf's photos mostly show Centre Party green backdrops; Ohisalo's mostly show Finnish government press rooms.
@@ -64,6 +65,7 @@ src/facesort/
 notebooks/
   00_feasibility.ipynb      recognition probe
   01_grouping_check.ipynb   photo selection, stimuli, grouping check, head crops
+  02_naming_check.ipynb     naming check on the 40 photos, full and cropped
 data/
   candidates.csv            first subject screen (photo counts per candidate)
   feasibility/              probe photos manifest and results
